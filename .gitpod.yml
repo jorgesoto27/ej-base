@@ -1,0 +1,4 @@
+# List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
+tasks:
+  - init: echo 'init pytest' # runs during prebuild
+    command: pip3 install pytest && clear
